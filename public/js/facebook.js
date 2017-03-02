@@ -14,7 +14,9 @@ function checkLoginState() {
  function changeUser(response){
  	console.log (response);
  	$("#name").html(response.name);
-
+ 	$("#photo").attr('src',response.picture.data.url);
+ 	//$.attr('src', "https://scontent.xx.fbcdn.net/v/t1.0-1/p480x480/13900228_10201877590937304_7921450944529592797_n.jpg?oh=917892eb73a70da3f3a7ca17d7f5f3fd&oe=59327ABC");
+ 	
  	//<img> 
 
  }
