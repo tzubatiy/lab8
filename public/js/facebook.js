@@ -12,7 +12,7 @@ function checkLoginState() {
  }
 
  function changeUser(response){
- 	console.log ('got here');
+ 	console.log (response);
 
  }
     
