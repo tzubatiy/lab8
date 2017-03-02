@@ -13,6 +13,23 @@ function checkLoginState() {
 
  function changeUser(response){
  	console.log (response);
+ 	$("#name").html(response.name);
+
+ 	//<img> 
 
  }
     
+
+
+// first_name
+// :
+// "Toma"
+// id
+// :
+// "10202754648063184"
+// name
+// :
+// "Toma Zubatiy"
+// picture
+// :
+// Object///
